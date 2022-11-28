@@ -15,7 +15,7 @@ function adminLogin(username, password) {
   Write a method `hows_the_weather` that takes in one argument, a temperature.
   If the temperature is below 40, return "It's brisk out there!". If the temperature is
   between 40 and 65, return "It's a little chilly out there!". If the temperature is above 85,
-  return "It's too dang hot out there!". Otherwise, return "It's perfect out there!"
+  return "It's too dang hot out there!". Otherwise, return "too dang hot"
 */
 function howsTheWeather(temperature) {
   let response;
